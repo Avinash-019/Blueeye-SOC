@@ -49,18 +49,6 @@ pip install flask scapy rich scikit-learn matplotlib pandas numpy requests fpdf2
 
 Blue Eye reads sensitive config from environment variables — never hardcode secrets.
 
-| Variable | Description | Default |
-|---|---|---|
-| `TELEGRAM_ENABLED` | Enable Telegram alerts (`true`/`false`) | `false` |
-| `TELEGRAM_BOT_TOKEN` | Your Telegram bot token | — |
-| `TELEGRAM_CHAT_ID` | Telegram chat/group ID to send alerts | — |
-| `TELEGRAM_ALERT_LEVEL` | Minimum level to alert (`HIGH`/`CRITICAL`) | `HIGH` |
-| `ABUSEIPDB_API_KEY` | AbuseIPDB API key for IP reputation | — |
-| `VIRUSTOTAL_API_KEY` | VirusTotal API key for domain/hash lookup | — |
-| `BLUEEYE_USERNAME` | Web dashboard login username | `admin` |
-| `BLUEEYE_PASSWORD` | Web dashboard login password | `blueeye2025` |
-| `BLUEEYE_SECRET_KEY` | Flask session secret key | auto-generated default |
-
 ### Set via shell:
 
 ```bash
@@ -151,7 +139,7 @@ sudo python blueeye.py --block-on --geoblock --allowed-countries India
 
 Access at: `http://localhost:5000`
 
-Default login: `admin` / `blueeye2025` (change via env vars)
+Default login: xxxxxx / xxxxxxx (change via env vars)
 
 **Dashboard pages:**
 - Live threat feed with severity coloring
