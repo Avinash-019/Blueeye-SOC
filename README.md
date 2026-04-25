@@ -1,4 +1,4 @@
-# -Blue-Eye---SOC-Monitor# 🔵 Blue Eye — SOC Monitor
+#🔵 Blue Eye — SOC Monitor
 
 **Blue Eye** is a real-world, production-ready Security Operations Center (SOC) tool built in Python. It captures live network traffic, detects threats using rule-based and machine learning techniques, sends Telegram alerts, generates professional PDF reports, and exposes a dark-themed web dashboard — all in a single file.
 
